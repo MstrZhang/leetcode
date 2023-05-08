@@ -39,6 +39,14 @@ time complexity:
 
 - only needs to traverse the prices array once so O(n) total time complexity
 - needs O(n) space complexity to store dp array
+
+how to recognize a dp solution?
+
+i feel like generally dp problems are recognized through intuition but the guideline:
+
+- appears recursive-like
+- appears like can be optimized with memoization
+    - particularly re-comparing to previous "best profits" is a key indicator
 """
 
 if __name__ == "__main__":
