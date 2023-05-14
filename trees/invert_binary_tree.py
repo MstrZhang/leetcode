@@ -5,13 +5,6 @@ Given the root of a binary tree, invert the tree, and return its root.
 """
 
 
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-
-
 def invert_tree(root):
     # case 1: tree is empty or has only one node
     if not root or not root.left and not root.right:
