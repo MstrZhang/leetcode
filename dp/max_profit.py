@@ -48,7 +48,3 @@ i feel like generally dp problems are recognized through intuition but the guide
 - appears like can be optimized with memoization
     - particularly re-comparing to previous "best profits" is a key indicator
 """
-
-if __name__ == "__main__":
-    print(max_profit([7, 1, 5, 3, 6, 4]))
-    print(max_profit([7, 6, 4, 3, 1]))
