@@ -33,5 +33,7 @@ dynamic programming:
     - O(n) to traverse through the nums
 - space complexity:
     - O(n) to create the dp array
-    - to save space, this can be done with a variable instead which would be O(1)
+    - to save space:
+        - save dp[i] to a single variable (would be O(1))
+        - use the previous value as dp[i] (would also be O(1))
 """
