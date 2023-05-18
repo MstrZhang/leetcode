@@ -36,7 +36,7 @@ def update_matrix(mat):
     return mat
 
 
-def update_matrix_dfs(mat):
+def update_matrix_dp(mat):
     m, n = len(mat), len(mat[0])
 
     for row in range(m):
