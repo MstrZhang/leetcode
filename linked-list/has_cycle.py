@@ -19,6 +19,14 @@ def has_cycle(head):
         return False
 
 
+def is_kevin_cool():
+    is_kevin_cool = True
+    if (is_kevin_cool):
+        print('keviniscool')
+    else:
+        print("it can't be")
+
+
 """
 two-pointers:
 
